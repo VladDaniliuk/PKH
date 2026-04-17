@@ -1,36 +1,21 @@
-# PKH — Personal Knowledge Hub
+# PKH
 
-Cross-platform Personal Knowledge Hub built as a KMP pet project with Android, iOS, Desktop, Web, and Backend.
+PKH (Personal Knowledge Hub) — pet project for collecting, organizing, reading, and reusing knowledge across Android, iOS, Desktop, Web, and Backend.
 
-## Purpose
+## Main idea
 
-This repository stores both the codebase and the project documentation in markdown files.
-The documentation is the source of truth for product scope, roadmap, architecture, ADRs, and current implementation focus.
+The project is a cross-platform knowledge hub where a user can:
+- save URLs and other knowledge items
+- organize them into collections and tags
+- read and revisit materials later
+- keep everything synchronized across devices
 
 ## Documentation
 
-- [Docs index](docs/README.md)
-- [Vision](docs/vision.md)
-- [Roadmap](docs/roadmap.md)
-- [Current focus](docs/current-focus.md)
-- [R1 — Capture + Library MVP](docs/releases/r1-mvp.md)
-- [Architecture overview](docs/architecture/overview.md)
+Project documentation lives in [`/docs`](../../Downloads/PKH_docs_template/PKH_docs_template/docs).
 
-## Planning approach
-
-This project uses docs-as-code:
-- product and technical planning live in `/docs`
-- epics are described in markdown files
-- progress is tracked through checklists and release documents
-- architecture decisions are documented as ADRs
-
-## Initial scope
-
-The first implementation milestone is **R1 — Capture + Library MVP**:
-- authentication
-- add item by URL
-- backend metadata extraction
-- library list
-- item details
-- collections and tags
-- Android + Desktop as the first client targets
+Start here:
+- [`docs/README.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/README.md)
+- [`docs/vision.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/vision.md)
+- [`docs/roadmap.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/roadmap.md)
+- [`docs/current-focus.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/current-focus.md)

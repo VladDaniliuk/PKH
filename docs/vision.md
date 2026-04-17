@@ -1,93 +1,46 @@
 # Vision
 
-## Product name
+## Product
 
-**PKH — Personal Knowledge Hub**
-
-## Idea
-
-PKH is a cross-platform application for saving, organizing, reading, and reusing knowledge from different sources:
-- articles
-- documentation pages
-- PDFs
-- videos
-- GitHub issues/discussions
-- personal notes
-
-The project is built as a Kotlin Multiplatform + Compose Multiplatform pet project with a dedicated backend.
+PKH is a cross-platform personal knowledge hub for saving, organizing, and revisiting knowledge from URLs, documents, notes, and other sources.
 
 ## Problem
 
-Useful information is usually scattered across many places:
+Useful information is usually scattered across:
 - browser bookmarks
-- chat messages
-- temporary notes
-- open tabs
-- GitHub saved items
-- PDF files on disk
+- saved messages
+- notes
+- documents
+- random tabs
+- GitHub links
+- articles and documentation
 
-As a result, knowledge is saved but not structured, not reviewed, and often not reused.
+This makes knowledge hard to revisit and reuse.
 
-## Product goal
+## Goal
 
-Create a single cross-platform knowledge inbox and library where a user can:
-1. save a knowledge item
-2. let the backend normalize and enrich it
-3. organize it into collections and tags
-4. read or review it later from any device
-5. progressively turn saved information into reusable knowledge
+Create a single cross-platform system where a user can:
+- capture knowledge quickly
+- keep it structured
+- access it from multiple devices
+- evolve it into something reusable
 
-## Platform roles
+## Core user value
 
-### Android / iOS
-- quick capture
-- reading on the go
-- fast triage of saved items
-- later reminders and lightweight review flows
+The user should be able to:
+1. save a material
+2. wait until the system processes it
+3. see it in the library
+4. organize it with collections and tags
+5. open it later from any supported client
 
-### Desktop
-- primary organization workspace
-- deeper reading and note-taking
-- collection management
-- richer information density and productivity-oriented UI
+## Non-goals for the first version
 
-### Web
-- simple access point
-- lightweight reading and onboarding entry
-- shareable/public entry points in later releases
-
-### Backend
-- authentication
-- sync
-- URL ingestion and metadata extraction
-- item storage
-- search indexing
-- background processing
-
-## Principles
-
-- docs-as-code
-- shared business logic first
-- backend that solves real product problems, not a fake demo backend
-- release-driven scope control
-- start from a narrow MVP and expand gradually
-
-## MVP direction
-
-The first release is **R1 — Capture + Library MVP**.
-
-R1 should prove the end-to-end product loop:
-- sign in
-- add URL
-- backend processes metadata
-- item appears in library
-- item details open
-- collection and tags can be assigned
-
-## Non-goals for early development
-
-- building a full Notion/Obsidian competitor
-- advanced AI features from day one
-- perfect parsing for every content type
-- implementing all platforms equally from the start
-- over-engineering the planning process
+R1 does not aim to include:
+- full article reader experience
+- highlights
+- advanced notes editor
+- full-text search
+- smart collections
+- semantic search
+- public sharing

@@ -1,36 +1,29 @@
-# Docs
+# PKH Docs
 
-This directory contains the project documentation for PKH.
+This folder contains product, planning, and architecture documentation for PKH.
 
-## Product
+## Main files
 
-- [Vision](vision.md)
-- [Roadmap](roadmap.md)
-- [Current focus](current-focus.md)
+- [`vision.md`](vision.md) — product vision and goals
+- [`roadmap.md`](roadmap.md) — high-level roadmap
+- [`current-focus.md`](current-focus.md) — current implementation focus
 
 ## Releases
 
-- [R1 — Capture + Library MVP](releases/r1-mvp.md)
-- [R2 — Reader + Notes](releases/r2-reader.md)
+- [`releases/r1-mvp.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/releases/r1-mvp.md)
+- [`releases/r2-reader.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/releases/r2-reader.md)
 
 ## Epics
 
-- [EPIC 01 — Foundation & Project Setup](epics/epic-01-foundation.md)
-- [EPIC 02 — Authentication](epics/epic-02-auth.md)
-- [EPIC 03 — Capture URL / Add Item](epics/epic-03-capture-url.md)
-- [EPIC 04 — Library & Collections](epics/epic-04-library-and-collections.md)
+- [`epics/epic-01-foundation.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/epics/epic-01-foundation.md)
+- [`epics/epic-02-auth.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/epics/epic-02-auth.md)
+- [`epics/epic-03-capture-url.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/epics/epic-03-capture-url.md)
+- [`epics/epic-04-library-and-collections.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/epics/epic-04-library-and-collections.md)
 
 ## Architecture
 
-- [Overview](architecture/overview.md)
+- [`architecture/overview.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/architecture/overview.md)
 
 ## ADR
 
-- [ADR 0001 — Monorepo and docs-as-code](adr/0001-monorepo.md)
-
-## Rules
-
-- planning is stored in markdown files first
-- GitHub Issues are optional and secondary
-- release scope is defined in `docs/releases/*`
-- active implementation focus is tracked in `docs/current-focus.md`
+- [`adr/0001-monorepo.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/adr/0001-monorepo.md)
