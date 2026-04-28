@@ -20,3 +20,4 @@ This folder contains product, planning, and architecture documentation for PKH.
 ## ADR
 
 - [`adr/0001-monorepo.md`](adr/0001-monorepo.md)
+- [`adr/0002-authentication.md`](adr/0002-authentication.md)

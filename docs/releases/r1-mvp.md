@@ -14,6 +14,7 @@ Deliver a working end-to-end flow:
 
 - Project foundation
 - Authentication
+- Account management basics
 - Add item by URL
 - Item processing state
 - Library list
@@ -28,6 +29,10 @@ Deliver a working end-to-end flow:
 - Search
 - Smart collections
 - Web/iOS feature completeness
+- OAuth / social login
+- Multi-factor authentication
+- Email verification
+- Device/session management UI
 
 ## Exit criteria
 
@@ -53,15 +58,19 @@ Deliver a working end-to-end flow:
 - [x] Verify Desktop app builds, if already present
 - [x] Verify backend module builds, if already present
 
-### R1.1 — Authentication MVP
+### R1.1 — Authentication & Account MVP
 
-- [ ] Decide R1 authentication strategy
-- [ ] Add authentication ADR if the chosen strategy affects backend/client architecture
+#### Core authentication
+
+- [ ] Confirm R1 authentication strategy from ADR 0002
 - [ ] Add shared auth domain models
 - [ ] Add `AuthRepository` contract
 - [ ] Add client token/session storage abstraction
 - [ ] Add backend user model
+- [ ] Add backend auth session model
 - [ ] Add backend password hashing
+- [ ] Add access token issuing and validation
+- [ ] Add refresh token generation, hashing, validation, and rotation
 - [ ] Add register endpoint
 - [ ] Add login endpoint
 - [ ] Add refresh session endpoint
@@ -72,6 +81,23 @@ Deliver a working end-to-end flow:
 - [ ] Restore auth session after app restart
 - [ ] Route unauthenticated user to auth flow
 - [ ] Route authenticated user to library flow
+
+#### Account management
+
+- [ ] Add password reset token model
+- [ ] Add forgot password endpoint
+- [ ] Add reset password endpoint
+- [ ] Add dev-mode password reset delivery through server logs
+- [ ] Add change password endpoint
+- [ ] Revoke other sessions after password change
+- [ ] Add delete account endpoint
+- [ ] Require password confirmation before account deletion
+- [ ] Delete or anonymize user-owned auth data after account deletion
+- [ ] Clear local tokens after account deletion
+- [ ] Add basic UI for forgot password
+- [ ] Add basic UI for reset password
+- [ ] Add basic UI for change password
+- [ ] Add basic UI for delete account
 
 ### R1.2 — Shared item domain contracts
 
