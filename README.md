@@ -12,10 +12,10 @@ The project is a cross-platform knowledge hub where a user can:
 
 ## Documentation
 
-Project documentation lives in [`/docs`](../../Downloads/PKH_docs_template/PKH_docs_template/docs).
+Project documentation lives in [`/docs`](./docs).
 
 Start here:
-- [`docs/README.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/README.md)
-- [`docs/vision.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/vision.md)
-- [`docs/roadmap.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/roadmap.md)
-- [`docs/current-focus.md`](../../Downloads/PKH_docs_template/PKH_docs_template/docs/current-focus.md)
+- [`docs/README.md`](./docs/README.md)
+- [`docs/vision.md`](./docs/vision.md)
+- [`docs/roadmap.md`](./docs/roadmap.md)
+- [`docs/current-focus.md`](./docs/current-focus.md)

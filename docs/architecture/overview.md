@@ -22,12 +22,10 @@ Business logic should be shared where it makes sense:
 
 ## Planned top-level modules
 
-- `shared/`
-- `androidApp/`
+- `composeApp/`
 - `iosApp/`
-- `desktopApp/`
-- `webApp/`
-- `backend/`
+- `server/`
+- `shared/`
 - `docs/`
 
 ## R1 focus
