@@ -10,13 +10,13 @@ This folder contains product, planning, and architecture documentation for PKH.
 
 ## Releases
 
-- [`releases/r1-mvp.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/releases/r1-mvp.md)
-- [`releases/r2-reader.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/releases/r2-reader.md)
+- [`releases/r1-mvp.md`](releases/r1-mvp.md)
+- [`releases/r2-reader.md`](releases/r2-reader.md)
 
 ## Architecture
 
-- [`architecture/overview.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/architecture/overview.md)
+- [`architecture/overview.md`](architecture/overview.md)
 
 ## ADR
 
-- [`adr/0001-monorepo.md`](../../../Downloads/PKH_docs_template/PKH_docs_template/docs/adr/0001-monorepo.md)
+- [`adr/0001-monorepo.md`](adr/0001-monorepo.md)

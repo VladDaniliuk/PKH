@@ -83,3 +83,20 @@ Before finishing work:
 - run the most relevant checks for the touched code
 - verify docs still match implementation
 - call out assumptions, limitations, and remaining work
+
+## Build and test commands
+Current Gradle modules:
+- `:shared`
+- `:composeApp`
+- `:server`
+
+Use these focused validation commands for the current R1.0 foundation:
+- `.\gradlew.bat :shared:compileKotlinMetadata`
+- `.\gradlew.bat :composeApp:assembleDebug`
+- `.\gradlew.bat :composeApp:jvmJar`
+- `.\gradlew.bat :server:check`
+
+Notes:
+- `:composeApp` contains Android, iOS framework, Desktop JVM, JS browser, and Wasm JS browser targets.
+- `iosApp/` is a native Xcode project, not a Gradle module.
+- Broad KMP checks such as `.\gradlew.bat :shared:check` may be slow or unsuitable for routine R1.0 validation; prefer the focused commands above unless broader coverage is needed.

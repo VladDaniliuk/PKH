@@ -44,13 +44,14 @@ Deliver a working end-to-end flow:
 
 ### R1.0 — Project foundation
 
-- [ ] Confirm actual module structure
-- [ ] Update architecture overview if module structure changed
-- [ ] Add project build/test commands to `AGENTS.md`
-- [ ] Verify shared module builds
-- [ ] Verify Android app builds
-- [ ] Verify Desktop app builds, if already present
-- [ ] Verify backend module builds, if already present
+- [x] Confirm actual module structure
+- [x] Update architecture overview if module structure changed
+- [x] Add project build/test commands to `AGENTS.md`
+- [x] Fix broken docs links
+- [x] Verify shared module builds
+- [x] Verify Android app builds
+- [x] Verify Desktop app builds, if already present
+- [x] Verify backend module builds, if already present
 
 ### R1.1 — Authentication MVP
 
@@ -154,7 +155,6 @@ Deliver a working end-to-end flow:
 - [ ] Run relevant checks for touched modules
 - [ ] Verify docs match implementation
 - [ ] Verify R1 exit criteria manually
-- [ ] Fix broken docs links
 - [ ] Remove temporary fake data if real backend flow is ready
 - [ ] Keep fake implementations only if they are clearly marked for development/testing
 - [ ] Mark exit criteria as done only when the user-facing flow is fully complete
