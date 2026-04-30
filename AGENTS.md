@@ -87,6 +87,10 @@ Before finishing work:
 ## Build and test commands
 Current Gradle modules:
 - `:shared`
+- `:data:auth:contract`
+- `:data:auth:api`
+- `:data:auth:impl`
+- `:domain:auth`
 - `:composeApp`
 - `:server`
 
@@ -97,6 +101,6 @@ Use these focused validation commands for the current R1.0 foundation:
 - `.\gradlew.bat :server:check`
 
 Notes:
-- `:composeApp` contains Android, iOS framework, Desktop JVM, JS browser, and Wasm JS browser targets.
+- `:composeApp` contains Android, iOS framework, Desktop JVM, and Wasm JS browser targets.
 - `iosApp/` is a native Xcode project, not a Gradle module.
 - Broad KMP checks such as `.\gradlew.bat :shared:check` may be slow or unsuitable for routine R1.0 validation; prefer the focused commands above unless broader coverage is needed.

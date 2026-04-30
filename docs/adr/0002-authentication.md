@@ -59,10 +59,13 @@ Deleting an account requires password confirmation. For R1, account deletion may
 
 ## Planned shared abstractions
 
+Backend/client auth contract models live in `:data:auth:contract`:
 - `User`
 - `AuthTokens`
 - `AuthSession`
 - `AuthState`
+
+Client-side auth data contracts live in `:data:auth:api`:
 - `AuthRepository`
 - `TokenStorage`
 
