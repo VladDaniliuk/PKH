@@ -67,6 +67,8 @@ The diagram groups modules by architectural layer, such as feature, domain, data
 ## Dependency injection
 
 PKH uses Koin for dependency injection across shared KMP code, Compose clients, and the Ktor server.
+DI definitions should use Koin annotations and the Koin compiler plugin instead of handwritten Koin DSL modules.
+Dependencies supplied by a different architectural layer, such as repository implementations or runtime server configuration, should be marked as provided at the annotation boundary.
 
 ## R1 focus
 
