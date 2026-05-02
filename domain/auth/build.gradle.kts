@@ -13,20 +13,20 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
-    
+
     iosArm64()
     iosSimulatorArm64()
-    
+
     jvm()
-    
+
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
         browser()
     }
-    
+
     sourceSets {
         commonMain.dependencies {
-            implementation(projects.domain.auth)
+            implementation(projects.data.auth.api)
             implementation(libs.koin.core)
             implementation(libs.koin.annotations)
         }
@@ -37,7 +37,7 @@ kotlin {
 }
 
 android {
-    namespace = "shov.studio.pkh.shared"
+    namespace = "shov.studio.pkh.domain.auth"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

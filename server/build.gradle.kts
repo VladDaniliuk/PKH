@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlinJvm)
     alias(libs.plugins.ktor)
+    alias(libs.plugins.koinCompiler)
     application
 }
 
@@ -14,7 +15,15 @@ application {
 }
 
 dependencies {
-    implementation(projects.shared)
+    implementation(projects.data.auth.contract)
+    implementation(libs.argon2.jvm)
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.dao)
+    implementation(libs.exposed.jdbc)
+    implementation(libs.h2)
+    implementation(libs.java.jwt)
+    implementation(libs.koin.annotations)
+    implementation(libs.koin.core)
     implementation(libs.logback)
     implementation(libs.ktor.serverCore)
     implementation(libs.ktor.serverNetty)

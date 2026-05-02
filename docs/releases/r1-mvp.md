@@ -62,15 +62,15 @@ Deliver a working end-to-end flow:
 
 #### Core authentication
 
-- [ ] Confirm R1 authentication strategy from ADR 0002
-- [ ] Add shared auth domain models
-- [ ] Add `AuthRepository` contract
-- [ ] Add client token/session storage abstraction
-- [ ] Add backend user model
-- [ ] Add backend auth session model
-- [ ] Add backend password hashing
-- [ ] Add access token issuing and validation
-- [ ] Add refresh token generation, hashing, validation, and rotation
+- [x] Confirm R1 authentication strategy from ADR 0002
+- [x] Add shared auth domain models
+- [x] Add `AuthRepository` contract
+- [x] Add client token/session storage abstraction
+- [x] Add backend user model
+- [x] Add backend auth session model
+- [x] Add backend password hashing
+- [x] Add access token issuing and validation
+- [x] Add refresh token generation, hashing, validation, and rotation
 - [ ] Add register endpoint
 - [ ] Add login endpoint
 - [ ] Add refresh session endpoint

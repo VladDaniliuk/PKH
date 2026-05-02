@@ -35,5 +35,9 @@ plugins {
 }
 
 include(":composeApp")
+include(":data:auth:api")
+include(":data:auth:contract")
+include(":data:auth:impl")
+include(":domain:auth")
 include(":server")
 include(":shared")
