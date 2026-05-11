@@ -77,6 +77,7 @@ When a task from docs/releases/*.md is fully completed:
 - Avoid duplicate planning notes
 - Avoid hidden scope expansion
 - Keep commit-sized changes coherent
+- In shared contract modules, prefer one public model/request/response type per Kotlin file so API types are easy to find.
 
 ## Validation
 Before finishing work:

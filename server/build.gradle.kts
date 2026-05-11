@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.kotlinJvm)
     alias(libs.plugins.ktor)
     alias(libs.plugins.koinCompiler)
+    alias(libs.plugins.serialization)
     application
 }
 
@@ -24,9 +25,13 @@ dependencies {
     implementation(libs.java.jwt)
     implementation(libs.koin.annotations)
     implementation(libs.koin.core)
+    implementation(libs.koin.ktor)
     implementation(libs.logback)
     implementation(libs.ktor.serverCore)
+    implementation(libs.ktor.serverContentNegotiation)
     implementation(libs.ktor.serverNetty)
+    implementation(libs.ktor.serializationKotlinxJson)
+    testImplementation(libs.ktor.clientContentNegotiation)
     testImplementation(libs.ktor.serverTestHost)
     testImplementation(libs.kotlin.testJunit)
 }
