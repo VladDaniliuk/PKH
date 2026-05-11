@@ -71,11 +71,11 @@ Deliver a working end-to-end flow:
 - [x] Add backend password hashing
 - [x] Add access token issuing and validation
 - [x] Add refresh token generation, hashing, validation, and rotation
-- [ ] Add register endpoint
-- [ ] Add login endpoint
-- [ ] Add refresh session endpoint
-- [ ] Add logout endpoint
-- [ ] Add current user endpoint
+- [x] Add register endpoint
+- [x] Add login endpoint
+- [x] Add refresh session endpoint
+- [x] Add logout endpoint
+- [x] Add current user endpoint
 - [ ] Add authenticated API request support on client
 - [ ] Add Android login/register screen
 - [ ] Restore auth session after app restart
